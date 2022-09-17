@@ -18,7 +18,7 @@ public class SelectLocation {
 
     @FXML
     private void handleSelectButton(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/sample/gasSelection.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/sample/timeSelection.fxml"));
         Scene scene = new Scene(root);
         Stage primaryStage = new Stage(StageStyle.DECORATED);
         primaryStage.setScene(scene);

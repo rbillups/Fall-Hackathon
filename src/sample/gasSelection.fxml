@@ -32,8 +32,8 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="192.0" layoutY="272.0" prefHeight="25.0" prefWidth="66.0" promptText="\$0.00" />
-      <ToggleButton fx:id ="eightySeven" onAction="#handleEightySevenButton" layoutX="42.0" layoutY="100.0" maxHeight="100.0" maxWidth="150.0" minHeight="100.0" minWidth="150.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #FCBF49;" text="87" wrapText="true">
+      <TextField layoutX="192.0" layoutY="272.0" prefHeight="25.0" prefWidth="66.0" promptText="\$0.00" text="0.00" />
+      <ToggleButton fx:id="eightySeven" layoutX="42.0" layoutY="100.0" maxHeight="100.0" maxWidth="150.0" minHeight="100.0" minWidth="150.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #FCBF49;" text="87" wrapText="true">
          <toggleGroup>
             <ToggleGroup fx:id="gas" />
          </toggleGroup>
@@ -44,12 +44,12 @@
             <Cursor fx:constant="DEFAULT" />
          </cursor>
       </ToggleButton>
-      <ToggleButton fx:id ="eightyNine"  layoutX="225.0" layoutY="100.0" maxHeight="100.0" maxWidth="150.0" minHeight="100.0" minWidth="150.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #F77F00;" text="89" toggleGroup="$gas" wrapText="true">
+      <ToggleButton fx:id="eightyNine" layoutX="225.0" layoutY="100.0" maxHeight="100.0" maxWidth="150.0" minHeight="100.0" minWidth="150.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #F77F00;" text="89" toggleGroup="$gas" wrapText="true">
          <font>
             <Font name="System Bold Italic" size="48.0" />
          </font>
       </ToggleButton>
-      <ToggleButton fx:id ="ninetyThree"  layoutX="410.0" layoutY="100.0" maxHeight="100.0" maxWidth="150.0" minHeight="100.0" minWidth="150.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #D62828;" text="93" toggleGroup="$gas" wrapText="true">
+      <ToggleButton fx:id="ninetyThree" layoutX="410.0" layoutY="100.0" maxHeight="100.0" maxWidth="150.0" minHeight="100.0" minWidth="150.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #D62828;" text="93" toggleGroup="$gas" wrapText="true">
          <font>
             <Font name="System Bold Italic" size="48.0" />
          </font>
@@ -87,7 +87,7 @@
             <Font size="18.0" />
          </font>
       </ToggleButton>
-      <Button layoutX="16.0" layoutY="357.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="170.0" style="-fx-background-color: #003049;" text="PAY" textFill="WHITE">
+      <Button fx:id="payment" onAction="#handlePayButton" layoutX="16.0" layoutY="357.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="170.0" style="-fx-background-color: #003049;" text="PAY" textFill="WHITE">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>

@@ -23,15 +23,10 @@ public class Home {
     @FXML
     private void handlePrePayButton(ActionEvent event) throws IOException{
         Parent root = FXMLLoader.load(getClass().getResource("/sample/selectLocation.fxml"));
-
         Scene scene = new Scene(root);
-
         Stage primaryStage = new Stage(StageStyle.DECORATED);
         primaryStage.setScene(scene);
         ((Stage) prepay.getScene().getWindow()).close();
         primaryStage.show();
-
     }
-
-
 }

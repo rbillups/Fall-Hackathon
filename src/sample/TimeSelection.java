@@ -14,6 +14,9 @@ import java.io.IOException;
 public class TimeSelection {
 
     @FXML
+    private Button back;
+
+    @FXML
     private Button next;
 
     @FXML
@@ -23,6 +26,16 @@ public class TimeSelection {
         Stage primaryStage = new Stage(StageStyle.DECORATED);
         primaryStage.setScene(scene);
         ((Stage) next.getScene().getWindow()).close();
+        primaryStage.show();
+    }
+
+    @FXML
+    private void handleBackButton(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("/sample/selectLocation.fxml"));
+        Scene scene = new Scene(root);
+        Stage primaryStage = new Stage(StageStyle.DECORATED);
+        primaryStage.setScene(scene);
+        ((Stage) back.getScene().getWindow()).close();
         primaryStage.show();
     }
 }

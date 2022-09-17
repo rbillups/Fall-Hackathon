@@ -13,33 +13,43 @@
    <children>
       <Button layoutX="495.0" layoutY="334.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="105.0" style="-fx-background-color: #003049;" text="ACCOUNT" textAlignment="CENTER" textFill="WHITE">
          <font>
-            <Font size="16.0" />
+            <Font name="Arial Bold" size="16.0" />
          </font>
       </Button>
       <Button layoutX="119.0" layoutY="334.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="105.0" style="-fx-background-color: #003049;" text="STATIONS" textAlignment="CENTER" textFill="WHITE">
          <font>
-            <Font size="16.0" />
+            <Font name="Arial Bold" size="16.0" />
          </font>
       </Button>
       <Button layoutX="378.0" layoutY="334.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="105.0" style="-fx-background-color: #003049;" text="OFFERS" textAlignment="CENTER" textFill="WHITE">
          <font>
-            <Font size="16.0" />
+            <Font name="Arial Bold" size="16.0" />
          </font>
       </Button>
       <Button layoutY="334.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="105.0" style="-fx-background-color: #003049;" text="ORDER" textAlignment="CENTER" textFill="WHITE">
          <font>
-            <Font size="16.0" />
+            <Font name="Arial Bold" size="16.0" />
          </font>
       </Button>
       <Button fx:id="prepay" layoutX="235.0" layoutY="311.0" mnemonicParsing="false" onAction="#handlePrePayButton" prefHeight="89.0" prefWidth="131.0" style="-fx-background-color: #D62828;" text="PREPAY GAS" textAlignment="CENTER" textFill="WHITE">
          <font>
-            <Font size="18.0" />
+            <Font name="Arial Bold" size="16.0" />
          </font>
       </Button>
-      <ImageView fitHeight="89.0" fitWidth="167.0" layoutX="287.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="301.0" fitWidth="355.0" layoutX="216.0" pickOnBounds="true" preserveRatio="true">
          <image>
-
+            <Image url="@Untitled%20design%20(32).png" />
          </image>
       </ImageView>
+      <Label layoutX="224.0" layoutY="88.0" text="GAS" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="224.0" layoutY="159.0" text="CAP" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="36.0" />
+         </font>
+      </Label>
    </children>
 </Pane>

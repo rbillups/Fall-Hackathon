@@ -54,7 +54,7 @@
             <Font name="System Bold Italic" size="48.0" />
          </font>
       </ToggleButton>
-      <ToggleButton layoutX="321.0" layoutY="274.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #FCbf49;" text="\$10">
+      <ToggleButton fx:id="ten" onAction="#tenPressed" layoutX="321.0" layoutY="274.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #FCbf49;" text="\$10">
          <toggleGroup>
             <ToggleGroup fx:id="gas2" />
          </toggleGroup>
@@ -62,27 +62,27 @@
             <Font size="18.0" />
          </font>
       </ToggleButton>
-      <ToggleButton layoutX="321.0" layoutY="335.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #FCbf49;" text="\$40" toggleGroup="$gas2">
+      <ToggleButton fx:id="forty" onAction="#fortyPressed" layoutX="321.0" layoutY="335.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #FCbf49;" text="\$40" toggleGroup="$gas2">
          <font>
             <Font size="18.0" />
          </font>
       </ToggleButton>
-      <ToggleButton layoutX="410.0" layoutY="335.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #FCbf49;" text="\$50" toggleGroup="$gas2">
+      <ToggleButton fx:id="fifty" onAction="#fiftyPressed" layoutX="410.0" layoutY="335.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #FCbf49;" text="\$50" toggleGroup="$gas2">
          <font>
             <Font size="18.0" />
          </font>
       </ToggleButton>
-      <ToggleButton layoutX="501.0" layoutY="335.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #FCbf49;" text="\$60" toggleGroup="$gas2">
+      <ToggleButton fx:id="sixty" onAction="#sixtyPressed" layoutX="501.0" layoutY="335.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #FCbf49;" text="\$60" toggleGroup="$gas2">
          <font>
             <Font size="18.0" />
          </font>
       </ToggleButton>
-      <ToggleButton layoutX="501.0" layoutY="274.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #FCbf49;" text="\$30" toggleGroup="$gas2">
+      <ToggleButton fx:id="thirty" onAction="#thirtyPressed" layoutX="501.0" layoutY="274.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #FCbf49;" text="\$30" toggleGroup="$gas2">
          <font>
             <Font size="18.0" />
          </font>
       </ToggleButton>
-      <ToggleButton layoutX="410.0" layoutY="274.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #FCbf49;" text="\$20" toggleGroup="$gas2">
+      <ToggleButton fx:id="twenty" onAction="#twentyPressed" layoutX="410.0" layoutY="274.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #FCbf49;" text="\$20" toggleGroup="$gas2">
          <font>
             <Font size="18.0" />
          </font>

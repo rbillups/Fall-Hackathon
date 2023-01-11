@@ -1,4 +1,4 @@
-# Hackathon
+# Fall 2022 Hackathon, Gas prepay app demo
 Challenge: The Connected World is the state of existence where everything is becoming increasingly
 digitized and globalized. This means workplaces, healthcare, transportation, schools, personal
 devices, and home fixtures are increasing interconnected. As a result, the world is becoming rich
